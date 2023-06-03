@@ -1,10 +1,186 @@
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.ScrollContainer {
+  width: 358px;
+  height: "228px";
+  background: linear-gradient(270deg, #800080 0%, #ff864c 100%);
+  border-radius: 20px;
+  margin-right: 20px;
+}
+
+.SVGs {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+
+  background: rgba(217, 217, 217, 0.25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Heading {
+}
+
+.ContainerRow {
+  display: flex;
+  width: 350px;
+  height: 65px;
+  margin-top: 20px;
+  margin-right: 47.44px;
+}
+
+.ContainerColumn {
+  display: flex;
+  flex-direction: column;
+  height: 65px;
+  margin-left: 15px;
+}
+
+.NavBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 73.03px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  background: #ffffff;
+  position: absolute;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.NavLogo {
+  display: flex;
+  align-items: center;
+  width: 160px;
+  height: 63px;
+  margin-left: 74px;
+}
+
+.NavOption1 {
+  height: 22px;
+  width: 140px;
+  left: 0px;
+  top: 0px;
+  border-radius: nullpx;
+}
+
+.NavOption2 {
+  height: 22px;
+  width: 156px;
+  left: 168px;
+  top: 0px;
+  border-radius: nullpx;
+}
+
+.NavSelectImage {
+  height: 22px;
+  width: 22px;
+  left: 2px;
+  top: 2px;
+}
+
+.NavOption3 {
+  display: flex;
+  height: 22px;
+  width: 153px;
+  left: 28px;
+  top: 2px;
+  border-radius: nullpx;
+  align-items: center;
+}
+
+.NavSelect {
+  height: 7.409999847412109px;
+  width: 12px;
+  left: 6px;
+  top: 8.58984375px;
+  border-radius: 0px;
+}
+
+.NavDropdown {
+  height: 7.409999847412109px;
+  width: 12px;
+  left: 6px;
+  top: 8.58984375px;
+  margin-left: 10px;
+  border-radius: 0px;
+  color: rgba(128, 0, 128, 1);
+}
+
+.Container2 {
+  display: flex;
+  height: 76px;
+  margin-top: 73.03px;
+  padding-left: 187px;
+  align-items: center;
+}
+
+.Container3 {
+  margin-top: 30px;
+  margin-left: 187px;
+  height: 188px;
+  width: 486px;
+  left: 187px;
+  top: 179px;
+  border-radius: 20px;
+  box-shadow: 0px 3px 100px rgba(0, 0, 0, 0.1);
+}
+
+#span1 {
+  /* Your Referral Code */
+
+  width: 228px;
+  height: 36px;
+  left: 766px;
+  top: 179px;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+
+  color: #800080;
+}
+
+#span2 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 1.5em;
+  padding: 15px;
+  padding-left: 46px;
+  /* padding-left: 60px;
+  padding-right: 60px; */
+  border-radius: 8px;
+  color: rgba(128, 0, 128, 1);
+}
+
+#span3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+
+  color: #800080;
+}
+
+.Container4 {
+  margin-left: 187px;
+  margin-top: 40px;
+
+  width: 224px;
+  height: 36px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
