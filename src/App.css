@@ -4,11 +4,44 @@
 }
 
 .ScrollContainer {
-  width: 358px;
-  height: "228px";
+  min-width: 358px;
+  height: 228px;
   background: linear-gradient(270deg, #800080 0%, #ff864c 100%);
   border-radius: 20px;
   margin-right: 20px;
+}
+
+/* Hide the default scrollbar */
+.ContainerHide::-webkit-scrollbar {
+  width: 0;
+}
+
+.ScrollEnd {
+  position: relative;
+  height: 228px;
+  width: 104px;
+  background: linear-gradient(270deg, #6D6D6D 0%, rgba(61, 49, 49, 0) 42.79%);
+  border-radius: 0px 20px 20px 0px;
+}
+
+.Courses {
+  height: 21px;
+  width: px;
+  left: 9px;
+  top: 4px;
+  border-width: 1px;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: #ffffff;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  padding: 0px 5px 0px 5px;
 }
 
 .SVGs {
@@ -20,9 +53,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.Heading {
 }
 
 .ContainerRow {
